@@ -1,0 +1,25 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ControlTemplate x:Key="MessageBusyBoxTemplate">
+        <Grid>
+            <Grid.Background>
+                <SolidColorBrush Color="Gray" Opacity="0.4" />
+            </Grid.Background>
+            <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" Text="{Binding Message}" />
+        </Grid>
+    </ControlTemplate>
+
+    <ControlTemplate x:Key="CancellationBusyBoxTemplate">
+        <Grid>
+            <Grid.Background>
+                <SolidColorBrush Color="Gray" Opacity="0.4" />
+            </Grid.Background>
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Orientation="Vertical">
+                <TextBlock Text="{Binding Message}" />
+                <Button Margin="4" Padding="12,8,12,8" Content="{Binding CancelText}" Command="{Binding Cancel}" />
+            </StackPanel>
+        </Grid>
+    </ControlTemplate>
+</ResourceDictionary>
