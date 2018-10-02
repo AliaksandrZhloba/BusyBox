@@ -119,8 +119,5 @@
   <ItemGroup>
     <Resource Include="Resources\Spinner.png" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="demo.mp4" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
