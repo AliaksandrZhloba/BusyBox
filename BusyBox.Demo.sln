@@ -12,6 +12,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Demo.gif = Demo.gif
 		demo.mp4 = demo.mp4
 		Demo.png = Demo.png
+		ReadMe.md = ReadMe.md
 	EndProjectSection
 EndProject
 Global
